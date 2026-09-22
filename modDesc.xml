@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="113">
+    <author>Marcus (Cobra Modding)</author>
+    <version>1.0.0.0</version>
+    <title>
+        <de>Eindeutige Kennzeichen</de>
+        <en>Unique License Plates</en>
+    </title>
+    <description>
+        <de>Verhindert doppelte Kennzeichen im Einzelspieler und Multiplayer. Bei deutschen Kennzeichen wird bei einer Doppelbelegung nur der Zahlenblock neu erzeugt. Bei anderen Kennzeichenformaten werden alle editierbaren Zeichen neu erzeugt. Die endgültige Vergabe wird im Multiplayer vom Server geprüft.</de>
+        <en>Prevents duplicate license plates in singleplayer and multiplayer. For German plates only the numeric block is regenerated on a conflict. For other plate formats all editable characters are regenerated. In multiplayer the final assignment is validated by the server.</en>
+    </description>
+    <iconFilename>icon_UniqueLicensePlates.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <extraSourceFiles>
+        <sourceFile filename="scripts/UniqueLicensePlates.lua"/>
+    </extraSourceFiles>
+</modDesc>
