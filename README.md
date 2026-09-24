@@ -4,7 +4,4 @@
 - Bei deutschen Kennzeichen wird bei einer Doppelbelegung nur der Zahlenblock geändert.
 - Bei anderen Kennzeichenformaten werden die frei editierbaren Zeichen neu erzeugt.
 - Sucht automatisch nach einer freien Kennzeichen-Kombination.
-- Zeigt eine Meldung an, wenn ein Kennzeichen wegen einer Doppelbelegung automatisch geändert wurde.
 - Beim Kaufen und Leasen wird ebenfalls geprüft, ob das Kennzeichen schon existiert.
-- Im Multiplayer entscheidet bzw. prüft der Server die endgültige Kennzeichenvergabe, damit alle Spieler denselben Stand haben.
-- Wenn keine freie Kombination gefunden wird, wird das Kennzeichen nicht einfach doppelt vergeben.
